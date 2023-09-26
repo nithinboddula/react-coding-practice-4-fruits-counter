@@ -1,0 +1,115 @@
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  font-family: 'Roboto';
+}
+
+.inside-container {
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 15px;
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+
+@media (min-width: 768px) {
+    .inside-container {
+        background-color: #ffffff;
+        margin: 50px;
+        border-radius: 8px;
+        width: 100vw;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+}
+
+
+.heading {
+  color: #000000;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    color: #000000;
+    font-size: 32px;
+    padding-bottom: 20px;
+  }
+}
+
+.count {
+  color: #ffd569;
+  /* font-size: 32px; */
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .fruits-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.fruit-image {
+  height: 150px;
+}
+
+
+@media (min-width: 768px) {
+    .fruit-image {
+  height: 200px;
+}
+}
+
+
+.button {
+  margin: 10px;
+  align-self: center;
+  color: #ffffff;
+  font-size: 10px;
+  background-color: #007bff;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  height: 25px;
+  width: 70px;
+  border-radius: 5px;
+}
+
+
+@media (min-width: 768px) {
+.button {
+  margin: 30px;
+  align-self: center;
+  color: #ffffff;
+  font-size: 12px;
+  background-color: #007bff;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+}
+}
